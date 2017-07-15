@@ -1,26 +1,68 @@
 {
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "Haskell",
+        "SQL",
+        "Scala"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "level": "Master",
+      "keywords": [
+        "Amazon Web Services",
+        "Google Cloud Platform",
+        "MySQL",
+        "SQLite",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Skills",
+      "level": "",
+      "keywords": [
+        "Backend architectures and operations"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "Git",
+        "PyCharm",
+        "Sequel Pro"
+      ]
+    },
+    {
+      "name": "Personal interests",
+      "level": "",
+      "keywords": [
+        "Kickboxing (Purple Belt)",
+        "Indoor and outdoor climbing",
+        "Guitar and vocals",
+        "Reading"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "English – Native speaker",
+        "German and French – Basic Speaking"
+      ]
+    }
+  ],
   "basics": {
     "name": "Fintan Halpenny",
     "label": "Software Engineer",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAghAAAAJDYwY2Q5NTJmLTkyMmUtNDU1Yi1hMWRjLWZmMTgwMGRjZWFjOQ.jpg",
     "email": "fintan.halpenny@gmail.com",
     "phone": "+353 86 310 5349",
-    "website": "",
-    "summary": "I am an experienced software engineer with a strong emphasis on backend development. In the last 3 years I've worked on handling of market data, writing driver software and developing internal tools at SIG and building the improved logo detection stack from the ground up at LogoGrab, a Dublin-based startup. My tasks at LogoGrab involve writing functional style and efficient Python, C and Scala code, management of AWS deployments via OpsWorks, SQS and EC2, writing tools for automating work flow for AWS and providing support to our range of customers. I work best in teams that collaborate on projects and foster a positive workplace environment. As a team member, I enjoy work that not only challenges me, but also requires me to learn new things while refining the skills I already have.",
-    "location": {
-      "address": "15 Viking Harbour Apartments",
-      "postalCode": "D08 F1P6",
-      "city": "Dublin",
-      "countryCode": "IE",
-      "region": "Dublin"
-    },
-    "profiles": [
-      {
-        "network": "",
-        "username": "",
-        "url": ""
-      }
-    ]
+    "website": ""
   },
   "work": [
     {
@@ -29,14 +71,12 @@
       "website": "https://www.logograb.com/",
       "startDate": "2015-01-19",
       "endDate": "",
-      "summary": "LogoGrab is the leading company in logo recognition with metrics that are three times higher than their closest competitors. The logo recognition technology is used for a range of use cases such as social media analysis and fraud detection.",
+      "summary": "Platform and Operations",
       "highlights": [
-        "Backend architecture for computer vision and machine learning pipeline, designing the processing pipeline from start to finish.",
-        "I designed the backend operations that concerned the logo detection engine. Some of these opetations included communication to the servers, health and monitoring and deployment of services.",
-        "I handle many of our AWS services for logo detection engines. These included: OpsWorks orchestration, real time streaming via SQS and database management using RDS",
-        "I am a key player when dealing with customers from a technical stand point. I was heavily involved in onboarding clients during testing and production phases.",
-        "I am the technical lead on the production phase of our counterfeit detection project with eBay. This involves working closely with eBay's counterfeit team, our account manager and managing our front end developers that build LogoGrab compliance tools.",
-        "In my spare moments I explore the use of Haskell as a language to interact and orchestrate our numerous cloud providers."
+        "Developed in-house tools for interacting with servers across multiple platforms.",
+        "Designed and implemented a modern computer vision and machine learning architecture.",
+        "Supplied client support and onboarding of LogoGrab products.",
+        "Designed data pipelines throughout the LogoGrab stack."
       ]
     },
     {
@@ -45,12 +85,12 @@
       "website": "",
       "startDate": "2014 May",
       "endDate": "2014 December",
-      "summary": "SIG are one of the top trading companies, their European Headquarters in the heart of the financial district of Dublin.",
+      "summary": "Research and Development of Tools",
       "highlights": [
-        "Python and Powershell tooling",
-        "C# tooling for overviewing batch jobs",
-        "C/C++ driver software",
-        "Parsing market data"
+        "Research and evaluate technologies for use of other developers",
+        "Gant chart tool for overviewing in-house batch jobs",
+        "Low level driver software",
+        "Parsing market data for easier viewing for developers"
       ]
     }
   ],
@@ -64,104 +104,10 @@
       "endDate": "2015-06-01",
       "gpa": "First Class Honours",
       "courses": [
-        "Compilers",
-        "Functional Programming",
-        "Computer Architecture",
-        "Concurrent Programming",
-        "Operating Systems",
-        "Algorithms and Data Structures",
-        "Distributed Computing",
-        "Semantics of Programming Languages",
-        "Verification of Programming Languages",
-        "Computer Vision"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Victor W. Graham Prize",
-      "date": "2011-05-21",
-      "awarder": "Trinity College Dublin",
-      "summary": "Highest grade in Mathematics, achieving 97% overall."
     }
   ],
   "publications": [],
-  "skills": [
-    {
-      "name": "Backend Development",
-      "level": "Master",
-      "keywords": [
-        "Python",
-        "TCP",
-        "SQL",
-        "Linux"
-      ]
-    },
-    {
-      "name": "Functional Programming",
-      "level": "Master",
-      "keywords": [
-        "Haskell",
-        "Scala"
-      ]
-    },
-    {
-      "name": "Amazon Web Services",
-      "level": "",
-      "keywords": [
-        "OpsWorks",
-        "SQS",
-        "EC2",
-        "Boto (Python Library)"
-      ]
-    },
-    {
-      "name": "Experience With",
-      "level": "",
-      "keywords": [
-        "Computer Vision",
-        "Machine Learning",
-        "Bash Scripting"
-      ]
-    },
-    {
-      "name": "Communication",
-      "level": "",
-      "keywords": [
-        "Team Presentations",
-        "Customer Onboarding",
-        "Customer Support"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Kickboxing",
-      "keywords": [
-        "Orange Belt"
-      ]
-    },
-    {
-      "name": "Rock Climbing",
-      "keywords": [
-        "Bouldering",
-        "Font level 4"
-      ]
-    },
-    {
-      "name": "Music",
-      "keywords": [
-        "Guitar",
-        "Vocals"
-      ]
-    }
-  ],
   "references": [
     {
       "name": "",
